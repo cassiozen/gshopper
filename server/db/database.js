@@ -3,4 +3,4 @@ const db = new Sequelize(process.env.DATABASE_URL || 'postgres://localhost/grace
   logging: false
 })
 
-module.exports = db;;
+module.exports = db;

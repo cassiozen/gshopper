@@ -8,6 +8,7 @@
   },
   "scripts": {
     "deploy": "sh scripts/deploy.sh",
+    "lint": "eslint ./server/*",
     "seed": "node scripts/seed.js",
     "start": "node server",
     "start:dev": "webpack -w & nodemon server --ignore public",
